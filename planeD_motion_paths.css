@@ -1,0 +1,72 @@
+.htmlNoPages .gwd-motion-path-tg5h-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing": true, "sections": [ {
+      "controlPoints": ["28px", "147.02px", "-593px", "264.02px", "-931px", "-101.98px", "-1022px", "-400.74px"], "startTimeMs": 0, "endTimeMs": 2500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation:gwd-motion-path-tg5h-keys-x 2.5s linear 0s 1 normal forwards;
+  transform:translate3d(28px, 0px, 0px);
+}
+@keyframes gwd-motion-path-tg5h-keys-x {
+  0% {
+    transform: translate3d(28px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3314, 0.3347, 0.6463, 0.6885);
+  }
+  57.5% {
+    transform: translate3d(-693px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2783, 0.3733, 0.5905, 0.7652);
+  }
+  97.5% {
+    transform: translate3d(-1011.78px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(-1022px, 0px, 0px);
+  }
+}
+.htmlNoPages .gwd-motion-path-tg5h-anim-y {
+  animation: gwd-motion-path-tg5h-keys-y 2.5s linear 0s 1 normal forwards;
+  transform: translate3d(0px, 147.02px, 0px);
+}
+@keyframes gwd-motion-path-tg5h-keys-y {
+  0% {
+    transform: translate3d(0px, 147.02px, 0px);
+    animation-timing-function: cubic-bezier(0.537, -0.6609, 0.8694, 0.5653);
+  }
+  57.5% {
+    transform: translate3d(0px, 30.85px, 0px);
+    animation-timing-function: cubic-bezier(0.3848, 0.2739, 0.7013, 0.6373);
+  }
+  100% {
+    transform: translate3d(0px, -400.74px, 0px);
+  }
+}
+.htmlNoPages .gwd-motion-path-tg5h-anim-theta {
+  animation: gwd-motion-path-tg5h-keys-theta 2.5s linear 0s 1 normal forwards;
+  transform: rotateZ(169.33deg);
+}
+@keyframes gwd-motion-path-tg5h-keys-theta {
+  0% {
+    transform: rotateZ(169.33deg);
+    animation-timing-function: cubic-bezier(0.3856, 0.2538, 0.6911, 0.6544);
+  }
+  100% {
+    transform: rotateZ(253.06deg);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+[data-gwd-motion-path-node].gwd-motion-path-tg5h-anim-x {
+  left: 1347px;
+  top: 394px;
+  width: 46px;
+  height: 49px;
+}
